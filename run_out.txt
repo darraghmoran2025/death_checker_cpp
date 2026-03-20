@@ -1,0 +1,36 @@
+=== Rip.ie Client Status Checker ===
+Input:      C:\Users\darra\rip-checker\sample_clients.csv
+Output:     results_sample_clients.csv
+Rate limit: 1500ms between requests
+
+Loaded 5 client record(s).
+
+[1/5] John Murphy
+  Querying: John Murphy [Dublin]
+  -> Deceased: Death notice found | Notice date: 2026-03-06 | Location: Greenhills, Co. Dublin
+[2/5] Mary O'Brien
+  Querying: Mary O'Brien [Cork]
+  -> Deceased: Death notice found | Notice date: 2026-01-26 | Location: Carrigrohane, Co. Cork
+[3/5] Patrick Kelly
+  Querying: Patrick Kelly [Galway]
+  -> Alive: No matching death notice found
+[4/5] Brigid Walsh
+  Querying: Brigid Walsh [Limerick]
+  -> Deceased: Death notice found | Notice date: 2025-09-29 | Location: Kildimo, Co. Limerick
+[5/5] Thomas Ryan
+  Querying: Thomas Ryan [Tipperary]
+  -> Alive: No matching death notice found
+
++-----------+----------------------+----------------------+--------------+--------------------------------+
+| ClientID  | First Name           | Last Name            | Status       | Detail                         |
++-----------+----------------------+----------------------+--------------+--------------------------------+
+| 1         | John                 | Murphy               | Deceased     | Death notice found | Notice .. |
+| 2         | Mary                 | O'Brien              | Deceased     | Death notice found | Notice .. |
+| 3         | Patrick              | Kelly                | Alive        | No matching death notice found |
+| 4         | Brigid               | Walsh                | Deceased     | Death notice found | Notice .. |
+| 5         | Thomas               | Ryan                 | Alive        | No matching death notice found |
++-----------+----------------------+----------------------+--------------+--------------------------------+
+
+Summary: 2 Alive | 3 Deceased | 0 Data Not Found | 5 Total
+
+Results saved to: results_sample_clients.csv

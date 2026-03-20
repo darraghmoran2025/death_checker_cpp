@@ -1,0 +1,31 @@
+﻿ninja_build.bat : 'vswhere.exe' is not recognized as an internal or external command,
+At line:1 char:1
++ & 'C:\Users\darra\rip-checker\ninja_build.bat' 2>&1 | Out-File -FileP ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('vswhere.exe' i...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+**********************************************************************
+** Visual Studio 2026 Developer Command Prompt v18.0
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- The CXX compiler identification is MSVC 19.50.35726.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ZLIB: optimized;C:/vcpkg/installed/x64-windows/lib/zlib.lib;debug;C:/vcpkg/installed/x64-windows/debug/lib/zlibd.lib (found suitable version "1.3.1", minimum required is "1")
+-- Configuring done (3.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/darra/rip-checker/build
+ninja: Entering directory `C:\Users\darra\rip-checker\build'
+[1/5] Building CXX object CMakeFiles\rip_checker.dir\src\result_writer.cpp.obj
+[2/5] Building CXX object CMakeFiles\rip_checker.dir\src\csv_reader.cpp.obj
+[3/5] Building CXX object CMakeFiles\rip_checker.dir\src\main.cpp.obj
+C:\Users\darra\rip-checker\src\main.cpp(60): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[4/5] Building CXX object CMakeFiles\rip_checker.dir\src\rip_scraper.cpp.obj
+[5/5] Linking CXX executable rip_checker.exe; Copying rip_checker to project root; Copying runtime DLLs to project root
+EXIT_CODE=0

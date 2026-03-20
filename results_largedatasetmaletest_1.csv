@@ -1,0 +1,20 @@
+ClientID,FirstName,LastName,County,Status,Detail
+2,Eamon,HOARE,Galway,Deceased,"Death notice found | Notice date: 2010-04-30 | Location: Ballinasloe, Co. Galway"
+3,Frank,KING,Galway,Deceased,"Death notice found | Notice date: 2024-01-16 | Location: Coolock, Co. Dublin (county in CSV unverified)"
+4,Tom,LINNANE,Galway,Deceased,"Death notice found | Notice date: 2025-03-24 | Location: Loughrea, Co. Galway"
+5,Anthony (Tony),O'CONNOR,Galway,Deceased,"Death notice found | Notice date: 2025-10-22 | Location: Whitehall, Co. Dublin (county in CSV unverified)"
+6,Noel,CARROLL,Galway,Alive,No matching death notice found
+7,John,CONCANNON,Galway,Deceased,"Death notice found | Notice date: 2018-09-02 | Location: Inishbofin, Co. Galway"
+8,Sean,HANNEY,Galway,Deceased,"Death notice found | Notice date: 2010-04-28 | Location: Ballinasloe, Co. Galway"
+9,Michael (Mickey),MURPHY,Galway,Deceased,"Death notice found | Notice date: 2026-01-10 | Location: Tullow, Co. Carlow (county in CSV unverified)"
+10,Matthew,O'MALLEY,Galway,Alive,No matching death notice found
+11,Padraig,BRADLEY,Galway,Alive,No matching death notice found
+12,Danny,BURKE,Galway,Alive,No matching death notice found
+13,James,FINNERTY,Galway,Deceased,"Death notice found | Notice date: 2011-03-08 | Location: Ballinamore Bridge, Co. Galway"
+14,John,SHEANON,Galway,Deceased,"Death notice found | Notice date: 2010-04-27 | Location: Loughrea, Co. Galway"
+15,Patrick,FLYNN,Galway,Deceased,"Death notice found | Notice date: 2026-02-09 | Location: Ballinasloe, Co. Galway"
+16,Jarlath,LOHAN,Galway,Deceased,"Death notice found | Notice date: 2021-06-13 | Location: Newbridge, Co. Galway"
+17,Luke Gerald,DALY KHARE,Galway,Deceased,"Death notice found | Notice date: 2010-04-24 | Location: Ballygar, Co. Galway"
+18,Pat Joe,DOLAN,Galway,Deceased,"Death notice found | Notice date: 2026-03-14 | Location: Ballinasloe, Co. Galway"
+19,Pascal,LEAHY,Galway,Deceased,"Death notice found | Notice date: 2023-06-16 | Location: Charleville, Co. Cork (county in CSV unverified)"
+20,Jerome,MULLANEY,Galway,Deceased,"Death notice found | Notice date: 2010-04-23 | Location: Gort, Co. Galway"

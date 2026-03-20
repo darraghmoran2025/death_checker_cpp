@@ -1,0 +1,11 @@
+ClientID,FirstName,LastName,County,Status,Detail
+2,William,Ahern,Cork,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Ballyvolane, Co. Cork"
+3,Margaret,Andrews (née Kavanagh),Meath,Alive,No matching death notice found
+4,Jimmy,Bowe,Louth,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Drogheda, Co. Louth"
+5,Larry,Cadden,Cavan,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Loughduff, Co. Cavan"
+6,Gerard (Gerry),Canning,Meath,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Kilcock, Co. Meath"
+7,Gerard (Gerry),Canning,Kildare,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Kilcock, Co. Meath (county in CSV unverified)"
+8,Brigid,Caputo (née Malone),Louth,Alive,No matching death notice found
+9,Mary,Cleary (née Kennedy),Carlow,Alive,No matching death notice found
+10,Tom,Connaughton,Galway,Deceased,"Death notice found | Notice date: 2026-03-16 | Location: Ballymoe, Co. Galway"
+11,Michael,Connelly,Galway,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Roundstone, Co. Galway"

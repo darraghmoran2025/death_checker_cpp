@@ -1,0 +1,16 @@
+﻿build.bat : 'vswhere.exe' is not recognized as an internal or external command,
+At line:1 char:1
++ & 'C:\Users\darra\rip-checker\build.bat' 2>&1 | Out-File -FilePath 'C ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('vswhere.exe' i...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+**********************************************************************
+** Visual Studio 2026 Developer Command Prompt v18.0
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+CMake Error: Error: generator : Ninja
+Does not match the generator used previously: Visual Studio 17 2022
+Either remove the CMakeCache.txt file and CMakeFiles directory or choose a different binary directory.

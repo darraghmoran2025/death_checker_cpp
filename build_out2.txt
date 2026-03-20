@@ -1,0 +1,20 @@
+'vswhere.exe' is not recognized as an internal or external command,
+operable program or batch file.
+**********************************************************************
+** Visual Studio 2026 Developer Command Prompt v18.0
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_TOOLCHAIN_FILE
+
+
+-- Build files have been written to: C:/Users/darra/rip-checker/build
+[1/4] Building CXX object CMakeFiles\rip_checker.dir\src\result_writer.cpp.obj
+[2/4] Building CXX object CMakeFiles\rip_checker.dir\src\main.cpp.obj
+[3/4] Building CXX object CMakeFiles\rip_checker.dir\src\rip_scraper.cpp.obj
+[4/4] Linking CXX executable rip_checker.exe; Copying rip_checker to project root; Copying runtime DLLs to project root

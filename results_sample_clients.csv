@@ -1,0 +1,6 @@
+ClientID,FirstName,LastName,County,Status,Detail
+1,John,Murphy,Dublin,Deceased,"Death notice found | Notice date: 2026-03-06 | Location: Greenhills, Co. Dublin"
+2,Mary,O'Brien,Cork,Deceased,"Death notice found | Notice date: 2026-01-26 | Location: Carrigrohane, Co. Cork"
+3,Patrick,Kelly,Galway,Alive,No matching death notice found
+4,Brigid,Walsh,Limerick,Deceased,"Death notice found | Notice date: 2025-09-29 | Location: Kildimo, Co. Limerick"
+5,Thomas,Ryan,Tipperary,Alive,No matching death notice found

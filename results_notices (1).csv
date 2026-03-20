@@ -1,0 +1,31 @@
+ClientID,FirstName,LastName,County,Status,Detail
+2,William,Ahern,Cork,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Ballyvolane, Co. Cork"
+3,Margaret,Andrews (née Kavanagh),Meath,Alive,No matching death notice found
+4,Jimmy,Bowe,Louth,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Drogheda, Co. Louth"
+5,Larry,Cadden,Cavan,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Loughduff, Co. Cavan"
+6,Gerard (Gerry),Canning,Meath,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Kilcock, Co. Meath"
+7,Gerard (Gerry),Canning,Kildare,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Kilcock, Co. Meath (county in CSV unverified)"
+8,Brigid,Caputo (née Malone),Louth,Alive,No matching death notice found
+9,Mary,Cleary (née Kennedy),Carlow,Alive,No matching death notice found
+10,Tom,Connaughton,Galway,Deceased,"Death notice found | Notice date: 2026-03-16 | Location: Ballymoe, Co. Galway"
+11,Michael,Connelly,Galway,Deceased,"Death notice found | Notice date: 2026-03-15 | Location: Roundstone, Co. Galway"
+12,Mary,CONNOLLY (née O'Donnell),Galway,Alive,No matching death notice found
+13,Detta,GALLAGHER (née O'Toole),Galway,Alive,No matching death notice found
+14,Eamon,HOARE,Galway,Deceased,"Death notice found | Notice date: 2010-04-30 | Location: Ballinasloe, Co. Galway"
+15,Frank,KING,Galway,Deceased,"Death notice found | Notice date: 2024-01-16 | Location: Coolock, Co. Dublin (county in CSV unverified)"
+16,Tom,LINNANE,Galway,Deceased,"Death notice found | Notice date: 2025-03-24 | Location: Loughrea, Co. Galway"
+17,Bridget (Ciss),NEYLON (née Daly),Galway,Alive,No matching death notice found
+18,Anthony (Tony),O'CONNOR,Galway,Deceased,"Death notice found | Notice date: 2025-10-22 | Location: Whitehall, Co. Dublin (county in CSV unverified)"
+19,Kate,REYNOLDS (née Duggan),Galway,Alive,No matching death notice found
+20,Kathleen,WELBY (née McKeown),Galway,Alive,No matching death notice found
+21,Noel,CARROLL,Galway,Alive,No matching death notice found
+22,Elizabeth,JOYNT,Galway,Alive,No matching death notice found
+23,John,CONCANNON,Galway,Deceased,"Death notice found | Notice date: 2018-09-02 | Location: Inishbofin, Co. Galway"
+24,Sean,HANNEY,Galway,Deceased,"Death notice found | Notice date: 2010-04-28 | Location: Ballinasloe, Co. Galway"
+25,Josie,MANNION,Galway,Deceased,"Death notice found | Notice date: 2023-03-30 | Location: Galway City, Co. Galway"
+26,Michael (Mickey),MURPHY,Galway,Deceased,"Death notice found | Notice date: 2026-01-10 | Location: Tullow, Co. Carlow (county in CSV unverified)"
+27,Matthew,O'MALLEY,Galway,Alive,No matching death notice found
+28,Mary,SHEEHAN (née Ryan),Galway,Alive,No matching death notice found
+29,Padraig,BRADLEY,Galway,Alive,No matching death notice found
+30,Danny,BURKE,Galway,Alive,No matching death notice found
+31,James,FINNERTY,Galway,Deceased,"Death notice found | Notice date: 2011-03-08 | Location: Ballinamore Bridge, Co. Galway"

@@ -1,0 +1,39 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "windows-default",
+            "displayName": "Windows x64 Release",
+            "generator": "Visual Studio 18 2026",
+            "binaryDir": "${sourceDir}/build",
+            "architecture": { "value": "x64", "strategy": "set" },
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            }
+        },
+        {
+            "name": "windows-debug",
+            "displayName": "Windows x64 Debug",
+            "generator": "Visual Studio 18 2026",
+            "binaryDir": "${sourceDir}/build",
+            "architecture": { "value": "x64", "strategy": "set" },
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "windows-release",
+            "configurePreset": "windows-default",
+            "configuration": "Release"
+        },
+        {
+            "name": "windows-debug",
+            "configurePreset": "windows-debug",
+            "configuration": "Debug"
+        }
+    ]
+}
