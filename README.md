@@ -1,15 +1,19 @@
-# rip-checker — Personal Reference
+# death_checker_cpp — Personal Reference
+
+A C++ command-line tool that checks a list of clients against [rip.ie](https://rip.ie) death notices and flags any deceased individuals.
+
+---
 
 ## Run It
 
 Open Command Prompt, then:
 
 ```cmd
-cd C:\Users\darra\rip-checker\build
+cd C:\Users\darra\death_checker_cpp\build
 ```
 
 ```cmd
-rip_checker.exe C:\Users\darra\Downloads\your_clients.csv
+death_checker.exe C:\Users\darra\Downloads\your_clients.csv
 ```
 
 Output saves automatically as `results_your_clients.csv` in your Downloads folder.
@@ -20,22 +24,22 @@ Output saves automatically as `results_your_clients.csv` in your Downloads folde
 
 **Basic run:**
 ```cmd
-rip_checker.exe C:\Users\darra\Downloads\clients.csv
+death_checker.exe C:\Users\darra\Downloads\clients.csv
 ```
 
 **Custom output file:**
 ```cmd
-rip_checker.exe C:\Users\darra\Downloads\clients.csv C:\Users\darra\Downloads\results.csv
+death_checker.exe C:\Users\darra\Downloads\clients.csv C:\Users\darra\Downloads\results.csv
 ```
 
 **Slower rate if getting blocked:**
 ```cmd
-rip_checker.exe C:\Users\darra\Downloads\clients.csv --rate 2000
+death_checker.exe C:\Users\darra\Downloads\clients.csv --rate 2000
 ```
 
 **Only check notices from 2020 onwards:**
 ```cmd
-rip_checker.exe C:\Users\darra\Downloads\clients.csv --from-year 2020
+death_checker.exe C:\Users\darra\Downloads\clients.csv --from-year 2020
 ```
 
 > If you don't pass `--from-year`, you'll be prompted at startup: `Search death notices from 2020 onwards only? [y/N]`. Answer `y` to apply the 2020 filter, or press Enter to search all years.
@@ -89,11 +93,11 @@ KELLY,Patrick,Galway,Galway
 Open a regular Command Prompt and run this from the build folder:
 
 ```cmd
-cd C:\Users\darra\rip-checker\build
+cd C:\Users\darra\death_checker_cpp\build
 ```
 
 ```cmd
 "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x64 && "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja\ninja.exe"
 ```
 
-> **Important:** Do NOT use a regular `ninja` command or the Developer Command Prompt shortcut — the full command above is required to load the correct VS environment before building. Without it you'll get `LNK1181: cannot open input file 'ws2_32.lib'`.
+> **Important:** Do NOT use a regular `ninja` command or the Developer Command Prompt shortcut — the full command above is required to load the correct VS environment before building. Without it you'll get `LNK1181: cannot open input file 'ws2_32.lib'`..
